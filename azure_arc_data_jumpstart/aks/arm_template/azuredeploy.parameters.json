@@ -3,16 +3,17 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "sshRSAPublicKey": {
-      "value": "<your RSA public key>"
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCqTXe4qmhLxK//CcWfHcq2eWM5ohZktmr37I6TLJdGk6cIsica7Uwr2c7WT18MxH/TcbzzIqZt4Rm2XdE3bnJ+b8FCNibU01/ppvpTLNKtJuqbCrVf7s76QGl8/Zp6Gngrb2sKXc2+nCc1DYuACJsWbqlbsntGOGXm9rn6GE4WlOJtbQGwT+9VXrf4WQp6hopF3tqkLuD1KonDYlK1cpl7AFuQSfHAp5gi/P1VOf2gc8z4XpMxj1RZjF/s74s3I3qBI0VjxJq+Rtj9lOWF4PHdHoONyrKf9IxwftQgMAdc+rlcWaf7CqQ5NryWKLVvvvPmf+zVmwUXb+0s3q0gQrLe4lQUnaqqlj1o60mO/G9ffrCQ8WtRUIJqOb1bitp6i+wzf4qypTpHTFY0VpvLaiMVKDYgTsqwFbzaT1IpACo7lwy71Sm1S6uDKwmk0xVlA8+zTk8a12+JXSAJgiM35B4WuGxlA9Z+326ZVbmN/1Le+rJVEJInS9A5OGoSHplyqzqpZPdryBgdG0s/FACJQ/iZPeHBtoz5BzzEAsbHrNtzlDbRj04wNo5Dc/acDA6i2kJUQpGMHPfkaGUQyumv2pBpjSANGGL2OSsN/7nrCaUseMRW2W2wCsR+bbQOnor5nF0Yd7EbitIsDrQwE9P2sz9TdSMujPR6Z7oiOLzPympdcQ=="
     },
     "spnClientId": {
-      "value": "<your service principal client id>"
+      "value": "azure-arc-sql"
     },
     "spnClientSecret": {
-      "value": "<your service principal secret>"
+      "value": "3a0b01d0-5b08-474a-b08b-5dff73814b5b"
     },
     "spnTenantId": {
-      "value": "<your spn tenant id>"
+      "value": "
+      4b849be9-ab12-4d68-ad15-163bc5356353"
     },
     "windowsAdminUsername": {
       "value": "arcdemo"
@@ -21,25 +22,25 @@
       "value": "ArcPassword123!!"
     },
     "myIpAddress": {
-      "value": "<your IP address>"
+      "value": "179.50.135.16"
     },
     "logAnalyticsWorkspaceName": {
-      "value": "<your unique Log Analytics workspace name>"
+      "value": "logsanalytics2021gbm123"
     },
     "deploySQLMI": {
-      "value": "<SQL Managed Instance deployment (true/false)>"
+      "value": "true"
     },
     "SQLMIHA": {
-      "value": "<SQL Managed Instance high-availability deployment (true/false)>"
+      "value": "false>"
     },
     "deployPostgreSQL": {
-      "value": "<PostgreSQL Hyperscale deployment (true/false)>"
+      "value": "false"
     },
     "templateBaseUrl": {
       "value": "https://raw.githubusercontent.com/microsoft/azure_arc/main/azure_arc_data_jumpstart/aks/arm_template/"
     },
     "kubernetesVersion": {
-      "value": "1.19.11"
+      "value": "1.20.9"
     },
     "dnsPrefix": {
       "value": "arcdata"
